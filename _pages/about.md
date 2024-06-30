@@ -8,10 +8,11 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
+  more_info: >
 
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 Hello! I'm Ziyang Guo. I'm a second-year PhD student in [Computer Science at Northwestern University](https://www.mccormick.northwestern.edu/computer-science/graduate/phd/). Currently, I work with Professor [Jessica Hullman](http://users.eecs.northwestern.edu/~jhullman/) at [MU Colective](https://mucollective.northwestern.edu/). Previously, I received my B.S. in Computer Science from [Zhejiang University](https://www.zju.edu.cn/english/).

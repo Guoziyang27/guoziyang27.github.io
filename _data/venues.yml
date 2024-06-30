@@ -1,3 +1,12 @@
+"ACM FAccT":
+  url: https://facctconference.org/
+
 "IEEE VIS":
   url: https://ieeevis.org/year/2023/welcome.html
   color: "#00369f"
+
+"PhysRev":
+  url: https://journals.aps.org/
+
+"Vision":
+  color: "#009f36"
