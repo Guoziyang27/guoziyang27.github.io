@@ -15,7 +15,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! I'm Ziyang Guo. I'm a thrid-year PhD student in [Computer Science at Northwestern University](https://www.mccormick.northwestern.edu/computer-science/graduate/phd/). Currently, I work with Professor [Jessica Hullman](http://users.eecs.northwestern.edu/~jhullman/) at [MU Colective](https://mucollective.northwestern.edu/). Previously, I received my B.S. in Computer Science from [Zhejiang University](https://www.zju.edu.cn/english/).
+Hello! I'm Ziyang Guo. I'm a fourth-year PhD student in [Computer Science at Northwestern University](https://www.mccormick.northwestern.edu/computer-science/graduate/phd/). Currently, I work with Professor [Jessica Hullman](http://users.eecs.northwestern.edu/~jhullman/) at [MU Colective](https://mucollective.northwestern.edu/). Previously, I received my B.S. in Computer Science from Zhejiang University in China.
 
-My research develop theoretical frameworks for reasoning about information-assisted behavior such as reliance in human-AI decision making. My work
-grounds in human-computer interaction, statistical decision theory and machine learning.
+I study how to design AI systems that are **complementary partners** in decision-making. My work integrates human–computer interaction, statistical decision theory, and machine learning. I use **statistical decision theory** to formalize and measure complementarity in human–AI pipelines, build **explainability techniques** that communicate human-complementary evidence in model outputs, and develop **post-training approaches for LLMs** that optimize for downstream human–AI decision quality rather than standalone model accuracy.
