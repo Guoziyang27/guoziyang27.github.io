@@ -205,6 +205,47 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
+.about-intro {
+  display: flex;
+  flex-direction: column;
+
+  .profile {
+    float: none;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .about-intro {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+
+    &.align-right {
+      flex-direction: row-reverse;
+    }
+
+    .profile {
+      flex: 0 0 30%;
+      width: 30%;
+      margin-bottom: 0;
+    }
+
+    .about-text {
+      flex: 1;
+      min-width: 0;
+
+      > :first-child {
+        margin-top: 0;
+      }
+
+      > :last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;
