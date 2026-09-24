@@ -736,14 +736,16 @@ footer.sticky-bottom {
 
         abbr {
           display: inline-block;
-          width: auto;
+          box-sizing: border-box;
+          width: 9.2em;
           max-width: 100%;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
           font-size: 0.95rem;
           line-height: 1.2;
           padding: 0.35em 0.55em;
-          white-space: normal;
+          text-align: center;
+          white-space: nowrap;
 
           a {
             color: white;
