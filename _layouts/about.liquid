@@ -51,17 +51,11 @@ layout: default
         {% endif %}
 
         {% if page.selected_papers %}
-          <h2>
-            <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-          </h2>
-          {% include selected_papers.liquid %}
-        {% endif %}
-
-        {% if page.social %}
-          <div class="social">
-            <div class="contact-icons">{% include social.liquid %}</div>
-            <div class="contact-note">{{ site.contact_note }}</div>
+          <div class="selected-header">
+            <h2>Selected recent publications</h2>
+            <a href="{{ '/publications/' | relative_url }}">Full publications</a>
           </div>
+          {% include selected_papers.liquid %}
         {% endif %}
       </div>
     </div>

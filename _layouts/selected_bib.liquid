@@ -1,0 +1,29 @@
+---
+---
+<div class="selected-paper">
+  <div class="title">
+    {% if entry.pdf %}
+      {% if entry.pdf contains '://' %}
+        <a href="{{ entry.pdf }}">{{ entry.title }}</a>
+      {% else %}
+        <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}">{{ entry.title }}</a>
+      {% endif %}
+    {% else %}
+      {{ entry.title }}
+    {% endif %}
+  </div>
+  <div class="author">
+    {%- for author in entry.author_array -%}
+      {%- unless forloop.first -%}
+        {%- if forloop.last %} and {% else %}, {% endif -%}
+      {%- endunless -%}
+      {{- author.last }}, {{ author.first | slice: 0 }}.
+    {%- endfor -%}
+  </div>
+  <div class="venue">
+    {{- entry.abbr }} {{ entry.year -}}
+    {% if entry.video %}
+      · <a href="{{ entry.video }}">Video</a>
+    {% endif %}
+  </div>
+</div>
