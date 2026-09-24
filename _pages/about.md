@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: ziyangguo_photo.jpeg
   image_circular: false # crops the image to make it circular
   more_info: |
     <p><strong>Ziyang Guo</strong></p>
