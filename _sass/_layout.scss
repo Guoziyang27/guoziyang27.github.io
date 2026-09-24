@@ -6,6 +6,18 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  font-family: "Lora", Georgia, "Times New Roman", serif;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .navbar,
+  .btn {
+    font-family: "Lora", Georgia, "Times New Roman", serif;
+  }
 
   h1,
   h2,

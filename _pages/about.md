@@ -7,7 +7,13 @@ profile:
   align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
+  more_info: |
+    <p><strong>Ziyang Guo</strong></p>
+    <p>PhD Candidate<br>
+    Computer Science<br>
+    Northwestern University<br>
+    ziyang[dot]guo[at]northwestern[dot]edu</p>
+    <p><a href="/cv/">CV</a> · <a href="https://scholar.google.com/citations?user=trYYCIIAAAAJ">Google Scholar</a></p>
 
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
