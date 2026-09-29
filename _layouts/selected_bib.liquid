@@ -21,9 +21,15 @@
     {%- endfor -%}
   </div>
   <div class="venue">
-    {{- entry.abbr }} {{ entry.year -}}
+    <div>{{- entry.abbr }} {{ entry.year -}}</div>
+    {% if entry.extra_venues %}
+      {% assign extra_venues = entry.extra_venues | split: "|" %}
+      {% for venue in extra_venues %}
+        <div>{{ venue }}</div>
+      {% endfor %}
+    {% endif %}
     {% if entry.video %}
-      · <a href="{{ entry.video }}">Video</a>
+      <a href="{{ entry.video }}">Video</a>
     {% endif %}
   </div>
 </div>
